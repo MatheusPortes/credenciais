@@ -1,0 +1,38 @@
+.header{
+    height: 50px;
+    background-color: #fff;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    box-shadow: 3px 3px 6px gray;
+}
+
+.header h1 {
+    color: rgb(43, 25, 25);
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(43, 25, 25);
+}
+
+.list{
+    list-style: none;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://pbs.twimg.com/profile_images/1278078099624787968/1MEyT1w-_400x400.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 9px grey;
+}
+
+.link_header{
+    font-weight: 500;
+    padding: 10px;
+}
+
+.link_header:hover{
+    background-color: #ccc;
+    border-radius: 5px;
+}

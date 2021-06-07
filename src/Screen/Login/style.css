@@ -1,0 +1,61 @@
+.fieldset{
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    /* margin: 90px auto; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-shadow: 3px 3px 10px grey;
+    border: none;
+}
+
+@media only screen and (max-width: 500px){
+    .fieldset{
+        width: 90%;
+    }
+}
+
+.form_login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.legend{
+    width: 45px;
+    height: 45px;
+    background-image: url("https://pbs.twimg.com/profile_images/1278078099624787968/1MEyT1w-_400x400.jpg");
+    background-size: cover;
+    border-radius: 22.5px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.input_login{
+    height: 40px;
+    width: 90%;
+    border: 0.5px solid grey;
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: large;
+    outline-color: rgb(56, 161, 56);
+}
+
+.input_btn{
+    height: 40px;
+    width: 90%;
+    margin: 5px auto;
+    font-size: large;
+    border: 0.5px solid #000;
+    background-color: rgb(56, 161, 56);
+    color: #fff;
+    border-radius: 5px;
+}

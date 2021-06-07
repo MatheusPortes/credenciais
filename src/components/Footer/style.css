@@ -1,0 +1,13 @@
+.copy{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(59, 50, 50);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0px;
+}

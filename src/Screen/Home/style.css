@@ -1,0 +1,38 @@
+.section{
+    width: 95%;
+    height: auto;
+    /* background-color: #fff; */
+    margin: 40px auto;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.section_search{
+    height: 600px;
+    width: 60%;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px grey;
+} 
+
+.section_aside{
+    height: 600px;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px grey;
+    min-width: 220px;
+}
+
+@media only screen and (max-width: 500px){
+    .section{
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .section_search{
+
+    }
+}
